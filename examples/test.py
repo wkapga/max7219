@@ -7,13 +7,13 @@ import time
 from random import randrange
 
 led.init()
-led.show_message("Hello world!", transition = transitions.left_scroll)
+led.show_message("ARTHUR 3: 0  ALBERT", transition = transitions.left_scroll)
 
-for x in range(256):
-    led.letter(x)
-    time.sleep(0.1)
+#for x in range(256):
+#    led.letter(x)
+#    time.sleep(0.1)
 
-while True:
+#while True:
  #   for x in range(500):
  #       canvas.set_on(randrange(8), randrange(8))
  #       canvas.scroll(randrange(16))
@@ -26,8 +26,8 @@ while True:
  #       canvas.render()
  #       time.sleep(0.01)
 
-    for x in range(500):
-        canvas.set_on(4, 4)
-        canvas.scroll(randrange(8))
-        canvas.render()
-        time.sleep(0.01)
+ #   for x in range(500):
+ #       canvas.set_on(4, 4)
+ #       canvas.scroll(randrange(8))
+ #       canvas.render()
+ #       time.sleep(0.01)
